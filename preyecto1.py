@@ -6,6 +6,6 @@
 		print("Es un numero impar")
 	return num
 
-	def prob2 (F):
+def prob2 (F):
 	celsius = (F - 32)* 5/9
 	print(celsius)
