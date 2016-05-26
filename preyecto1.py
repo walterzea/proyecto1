@@ -1,11 +1,9 @@
-  def num (a):
-  	a = int(input("ingrese un numero"))
-	if a % 2 == 2:
-		print("Es un numero par")
+def prob_1 (a):
+	if a % 2 == 0:
+		return True
 	else:
-		print("Es un numero impar")
-	return num
+		return False
 
-def prob2 (F):
+def prob_2 (F):
 	celsius = (F - 32)* 5/9
-	print(celsius)
+	return celsius
