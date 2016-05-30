@@ -13,3 +13,8 @@ def prob_3(b, p):
 	for i in range(p):
 		res = res * b
 	return(res)
+
+def prob_4(n, p):
+	l = len(p)	
+	cas=(n-l)/2
+	return(cas)
