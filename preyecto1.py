@@ -7,3 +7,9 @@ def prob_1 (a):
 def prob_2 (F):
 	celsius = (F - 32)* 5/9
 	return celsius
+def prob_3(b, p):
+	res = 1
+	i = 0
+	for i in range(p):
+		res = res * b
+	return(res)
